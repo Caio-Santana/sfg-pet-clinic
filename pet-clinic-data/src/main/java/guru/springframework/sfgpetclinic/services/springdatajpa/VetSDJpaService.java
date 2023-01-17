@@ -15,7 +15,7 @@ public class VetSDJpaService implements VetService {
 
     private final VetRepository vetRepository;
 
-    public VetSDJpaService(VetRepository vetRepository,) {
+    public VetSDJpaService(VetRepository vetRepository) {
         this.vetRepository = vetRepository;
     }
 
