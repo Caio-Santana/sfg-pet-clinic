@@ -80,7 +80,7 @@ class OwnerSDJpaServiceTest {
 
         assertNotNull(savedOwner);
 
-        verify(ownerRepository.save(any()));
+        verify(ownerRepository).save(any());
     }
 
     @Test
